@@ -1,0 +1,607 @@
+/* Google Fonts */
+
+.francois-one-regular {
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+}
+
+/* CSS Reset */
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul,
+figure,
+figcaption,
+section,
+article,
+aside,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body, Header, Img, and Video Styles */
+
+body {
+    background-color: #000000;
+    ;
+}
+
+header {
+    top: 0;
+    background-color: #000000;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+img,
+video {
+    max-width: 100%;
+    /* Makes img elements responsive */
+    display: block;
+}
+
+video {
+    margin: 0 auto 4%;
+}
+
+/* Box Sizing Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Main styles */
+
+main {
+    background-color: #FFFFFF;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Footer Styles */
+
+footer .copyright {
+    font-size: 0.75em;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2% 4%;
+    float: left;
+    width: 75%;
+}
+
+footer p a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Article Styles */
+
+article {
+    padding: 2%;
+}
+
+article h3 {
+    text-align: center;
+}
+
+article img {
+    margin: 0 auto;
+}
+
+article ul {
+    margin-left: 10%;
+}
+
+article:nth-of-type(2) {
+    background-color: rgba(204, 204, 204, 0.3);
+}
+
+/* Form Element Styles */
+
+fieldset,
+input,
+select,
+textarea {
+    margin-bottom: 2%;
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #B3B3B3;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+}
+
+/* ID Styles */
+
+#weights,
+#cardio,
+#training {
+    margin: 0 2%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact .contact-email-link {
+    color: #666600;
+    text-decoration: none;
+}
+
+#form {
+    margin-top: 2%;
+    background-color: #F2F2F2;
+    padding: 2%;
+}
+
+#form p {
+    margin-top: 2%;
+    background-color: #F2F2F2;
+    padding: 2%;
+}
+
+#form h2 {
+    text-align: center;
+}
+
+/* Class Styles */
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.frame {
+    position: relative;
+    max-width: 450px;
+    margin: 2% auto;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+.map {
+    border: 2px solid #000000;
+    width: 95%;
+    height: 50%;
+}
+
+.mobile {
+    display: block;
+}
+
+.mobile h3,
+.action {
+    text-shadow: 5px 5px 8px #CCCCCC;
+}
+
+.mobile-nav a {
+    color: #FFFFFF;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pic-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.skip {
+    position: absolute;
+    left: -999px;
+}
+
+.skip:focus {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.5%;
+    top: auto;
+    left: auto;
+    right: 1px;
+    z-index: 1;
+}
+
+.social {
+    float: right;
+    width: 20%;
+    padding: 2%;
+}
+
+.social img {
+    display: inline-block;
+    padding: 5%;
+}
+
+.tablet-desktop,
+#menu-links {
+    display: none;
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+/* Style Rules for Tablet Viewport */
+
+@media screen and (min-width: 630px),
+print {
+    aside {
+        text-align: center;
+        font-size: 1.25em;
+        font-style: italic;
+        font-weight: bold;
+        padding: 2%;
+        background-color: rgba(204, 204, 204, 0.5);
+        box-shadow: 5px 5px 8px #000000;
+        text-shadow: 5px 5px 5px #B3B3B3;
+        border-radius: 0 15px;
+    }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 1%;
+    }
+
+    figcaption {
+        animation-name: text-animation;
+        animation-delay: 3s;
+        animation-duration: 5s;
+        -webkit-animation-name: text-animation;
+        -webkit-animation-delay: 3s;
+        -webkit-animation-duration: 5s;
+    }
+
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    header {
+        padding-bottom: 2%;
+    }
+
+    main ul {
+        margin: 0 0 4% 10%;
+    }
+
+    nav {
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    nav li {
+        font-size: 1.5em;
+        font-family: "Francois One", sans-serif;
+        display: inline-block;
+        border-right: 1px solid #FFFFFF;
+    }
+
+    nav li a {
+        padding: 0.1em 0.75em;
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    table {
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    th {
+        background-color: #000000;
+        color: #FFFFFF;
+        font-size: 1.15em;
+    }
+
+    th,
+    td {
+        border: 1px solid #000000;
+        padding: 2%;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #CCCCCC;
+        ;
+    }
+
+    /* Class Styles for Tablet Viewport */
+
+    #example {
+        display: none;
+    }
+
+    #exercises {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        background: linear-gradient(to right, #CCCCCC, #ffffff);
+        background-color: #F2F2F2;
+        padding: 1% 2%;
+    }
+
+    #exercises dt {
+        font-weight: bold;
+    }
+
+    #exercises dd {
+        padding: 0.5% 1% 2% 0;
+    }
+
+    /* ID Styles for Tablet Viewport */
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+
+    .grid-item4 {
+        grid-column: 1 / span 3;
+    }
+
+    .map {
+        width: 600px;
+        height: 450px;
+    }
+
+    .mobile,
+    .mobile-nav {
+        display: none;
+    }
+
+    .pic-text {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .tablet-desktop {
+        display: block;
+    }
+
+    .tel-num {
+        font-size: 1.25em;
+    }
+
+    .viewex {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    /* Animations for Tablet Viewport */
+
+    @keyframes text-animation {
+        0% {
+            font-size: 1em;
+        }
+
+        /* Beginning of the Animation */
+        50% {
+            font-size: 2em;
+        }
+
+        /* Middle of the Animation */
+        100% {
+            font-size: 1.35em;
+        }
+
+        /* End of the Animation */
+    }
+
+    @-webkit-keyframes text-animation {
+        0% {
+            font-size: 1em;
+        }
+
+        /* Beginning of the Animation */
+        50% {
+            font-size: 2em;
+        }
+
+        /* Middle of the Animation */
+        100% {
+            font-size: 1.35em;
+        }
+
+        /* End of the Animation */
+    }
+}
+
+/* Style Rules for Desktop Viewport */
+
+@media screen and (min-width: 1020px),
+print {
+    article h3 {
+        font-size: 1.75em;
+    }
+
+    form {
+        width: auto;
+    }
+
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    }
+
+    main {
+        clear: left;
+    }
+
+    main h1 {
+        font-size: 1.8em;
+    }
+
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    nav li a {
+        padding: 0.5em 1em;
+    }
+
+    nav li a:hover {
+        color: #000000;
+        background-color: #FFFFFF;
+        transform: scale(1.3);
+    }
+
+    #exercises {
+        clear: left;
+    }
+
+    #weights,
+    #cardio,
+    #training {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+
+    .btn {
+        grid-column: 1 / span 3;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+
+    .frame {
+        opacity: 0.9;
+    }
+
+    .frame:hover {
+        opacity: 1;
+        box-shadow: 8px 8px 10px #808080;
+        transform: translateY(10px);
+    }
+
+    .offer:hover {
+        transform: scale(1.25);
+        cursor: pointer;
+    }
+
+    .pic-text {
+        font-size: 1.5em;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    table {
+        width: 80%;
+    }
+
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+}
+
+@media print {
+    body {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+}
